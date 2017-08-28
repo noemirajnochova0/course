@@ -2,11 +2,16 @@
 <html>
 	<head>
 		<title> Moje první úžasná stránka</title>
+		<link rel="stylesheet" href="styles/style.css">
 	</head>
 	<body>
-		<h1 title="nadpis">Ahoj, vítejte ve Vodafone!</h1>
+		<h1 id="prvni" class="prvni-trida" title="nadpis">Ahoj, vítejte ve Vodafone!</h1>
 		<img src="kytka-mdž.jpg" alt="kytka">
 		<a href=" https://www.google.cz/">odkaz na google</a>
+		
+		<p>
+		ahoj <span class="highlight">Lucie</span>, jak se ti libi HTML?
+		</p>
 		
 		<div>
 			<ul>
@@ -15,7 +20,7 @@
 			</ul>
 		</div>
 		
-		<div>
+		<div class="oramovane">
 			<ol>
 				<li><i>první odrazka</i></li>
 				<li><b>druhá odrazka<b></li>
@@ -25,9 +30,9 @@
 	<table border="1">
 		<thead>
 			<tr>
-				<th>Jméno</th>
-				<th>Přijmení</th>
-				<th>Věk</th>
+				<th class="tucna-trida">Jméno</th>
+				<th class="tucna-trida">Přijmení</th>
+				<th class="tucna-trida">Věk</th>
 			</tr>
 		</thead>
 	
@@ -43,6 +48,8 @@
 				<td>Zelená</td>
 				<td>29</td>
 			</tr>
+			
+			<h2 title="nadpis" class="tucna-trida">lalala</h2>
 	
 		</tbody>
 	</table>
